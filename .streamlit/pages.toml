@@ -1,0 +1,23 @@
+
+
+[[pages]]
+path = "pagest/QA_chat.py"
+name = "chat"
+icon = ":books:"
+
+[[pages]]
+path = "pagest/KMS_embed.py"
+name = "KMS"
+icon = ":books:"
+
+[[pages]]
+path = ""
+name = "Home"
+icon = "🏠"
+is_section = true
+
+# Pages after an `is_section = true` will be indented
+[[pages]]
+path = "pagest/Intro.py"
+name = "인트로"
+icon = "💪"

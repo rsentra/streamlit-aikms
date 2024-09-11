@@ -1,0 +1,18 @@
+------ streamt_aikms: aikms 소스 이미지 생성------
+
+docker build -t ai-kms .
+
+--컨테이너 실행
+사용법: 
+1) 환경변수 x
+docker run -it -d -p 5003:8503 --name ai-kms ai-kms
+2) 환경변수 o
+docker run -it -d -p 8503:8503 --privileged --name ai-kms ai-kms
+
+
+
+-- docker 이미지크기 확인
+docker history --human --format "{{.CreatedBy}}: {{.Size}}" ai-kms
+
+--미사용 볼륨 제거
+docker volume prune

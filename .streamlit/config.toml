@@ -1,0 +1,30 @@
+[theme]
+base="light"
+# Primary accent for interactive elements
+# primaryColor = "#ff4b4b"
+
+# Background color for the main content area
+backgroundColor = "#F5F5F5"
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#afcbcb"
+
+# Color used for almost all text
+textColor = "#31333f"
+
+# Font family for all text in the app, except code blocks
+# Accepted values (serif | sans serif | monospace) 
+# Default: "sans serif"
+font = "sans serif"
+
+[server]
+# Max size, in megabytes, for files uploaded with the file_uploader.
+# Default: 200
+maxUploadSize = 100
+
+[browser]
+serverAddress = "localhost"  #"192.168.0.187"
+gatherUsageStats = true
+serverPort = 8501
+
+

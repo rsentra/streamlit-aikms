@@ -1,0 +1,10 @@
+streamlit
+streamlit-option-menu
+streamlit-extras
+oracledb
+pandas
+numpy
+plotly
+st-pages
+requests
+psycopg2-binary
