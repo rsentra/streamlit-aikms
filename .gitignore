@@ -3,6 +3,7 @@ __pycache__/
 *.sql
 *.tar
 *.ipynb
+*backup*
 **/*.xlsx
 **/*.csv
 **/*.html
