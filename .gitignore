@@ -1,6 +1,8 @@
 .ipynb_checkpoints/
 __pycache__/
 *.sql
+*.tar
+*.ipynb
 **/*.xlsx
 **/*.csv
 **/*.html
@@ -13,7 +15,6 @@ __pycache__/
 **/dist
 **/img
 **/*.spec
-.streamlit/secrets.toml
 **/*.pkl
 **/*.faiss
 **/*.py1
